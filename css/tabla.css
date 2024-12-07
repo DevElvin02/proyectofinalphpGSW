@@ -1,0 +1,70 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilo del enlace "Crear Producto" */
+a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Efecto al pasar el ratón sobre el enlace */
+a:hover {
+    background-color: #f1f509;
+    color: #000;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Estilo de las celdas de la tabla */
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #070707;
+}
+
+/* Estilo de los encabezados de la tabla */
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Efecto de hover en las filas de la tabla */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo de los enlaces dentro de la tabla */
+td a {
+    color: #020202;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Efecto al pasar el ratón sobre los enlaces de la tabla */
+td a:hover {
+    background-color: #eb0808;
+}

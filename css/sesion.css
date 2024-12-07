@@ -1,0 +1,67 @@
+/* estilos.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/fondologin.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    margin: 0; */
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+p{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 50px 30px;
+    font-size: 15px;
+    color: #000;
+}
+
+a {
+    list-style: none;
+}
+
+
+button {
+    background-color: #0840d8;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0b116e;
+}
